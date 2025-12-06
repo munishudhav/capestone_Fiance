@@ -1,0 +1,77 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f8ff;
+    color: #1e3a8a;
+}
+
+.header {
+    background: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #d7e3ff;
+    text-align: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: #1e3a8a;
+}
+
+.logo span { color: #3b82f6; }
+
+.main { padding: 60px 0; }
+
+.title {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.text {
+    color: #475569;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    max-width: 350px;
+    margin: auto;
+    border-radius: 12px;
+    border: 1px solid #d7e3ff;
+    text-align: center;
+}
+
+.crypto-price {
+    font-size: 1.8rem;
+    color: #3b82f6;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.back {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #1e3a8a;
+}
+.back {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #3b82f6;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.back:hover {
+    background: #1e40af;
+}
